@@ -5,9 +5,9 @@ Create a function that takes a number as a parameter. This function will print o
 solution:
 
 - create a function that takes a number as parameter 
-- inside the function create a for loop iterating from 1 to number in parameter:
-- if (num % 3) == 0 && (num % 5) == 0 meaning the number is divisible by both 3 and 5:
+- inside the function create a for loop iterating from 1 to number in argument:
+- if (num % 3) == 0 && (num % 5) == 0 meaning the value of iterator is divisible by both 3 and 5:
     - then console.log('Fizz Buzz')
-- else if (num % 3) == 0 meaning number is only divisible by 3:
+- else if (num % 3) == 0 meaning that the value in iterator is only divisible by 3:
     - then console.log('Fizz')
 - else print the number to the console
