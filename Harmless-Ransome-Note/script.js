@@ -22,6 +22,9 @@ function ransome(note,magazine){
                 i++;
             
         }
+        else if(j === magazine.length && note[i] !== magagize[j]){
+            return false;
+        }
        
     }
 
@@ -40,4 +43,5 @@ function ransome(note,magazine){
 }
 
 console.log(ransome('hello','the lemon also called lime'));
+console.log(ransome('dog','the lemon also called lime'));
 
