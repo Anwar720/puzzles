@@ -2,7 +2,7 @@ Julius Caesar protected his confidential information by encrypting it using a ci
 
 Solution:
 
-    - create a function that takes a string 
+    - create a function that takes a string and number of shifts
     - within the function create an array of letters
     - create a variable to hold the shifted letters
     - create a loop that iterates through the input string
