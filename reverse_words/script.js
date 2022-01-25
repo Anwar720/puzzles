@@ -17,7 +17,7 @@ function reverse(string){
                 tmp += string[j]
             }
             // adds space between words
-            tmp+=' ';
+            // tmp+=' ';
             //sets start to the start of the next word
             start = i;
         }
@@ -25,5 +25,5 @@ function reverse(string){
     return tmp;
 }
 
-console.log(reverse('Hello there'))
+// console.log(reverse('Hello there'))
 console.log(reverse('How are you doing on this fine evening ?'))

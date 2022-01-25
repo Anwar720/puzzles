@@ -2,9 +2,9 @@ Question: Write a function that will reverse every word in a given string and re
 
 solution:
 
-    - create a function that takes a string as parameter
-        - define variables start to hold the start of a word
-        - define a variable tmp to hold the reversed words
+- create a function that takes a string as parameter:
+    - define variables start to hold the start of a word
+    - define a variable tmp to hold the reversed words
     - loop through the length of the string
     - check for space and end to the sentence
         - if a space occurs or end to the sentence
